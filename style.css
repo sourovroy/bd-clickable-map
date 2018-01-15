@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+}
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 500px;
+	width: 100%;
+	margin: 50px auto;
+	position: relative;
+}
+.text-center{
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+/* .region-path{
+	transition: transform 0.5s ease-in-out;
+} */
+.region-path:hover{
+	fill: #cc1100;
+	cursor: pointer;
+}
+
+.back-button{
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 20px;
+	color: #7d7676;
+	position: absolute;
+    left: -80px;
+    top: 0;
+    cursor: pointer;
+    display: none;
+}
+
+/* .region-active{
+	transform: scale(1.5)  translate(0, 0);
+} */
